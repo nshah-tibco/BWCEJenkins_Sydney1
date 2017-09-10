@@ -1,5 +1,5 @@
 {
-    "family": "launch-test-app",
+    "family": "launch-test-app1",
     "containerDefinitions": [
         {
             "image": "750037626691.dkr.ecr.ap-northeast-1.amazonaws.com/http-app:latest",
