@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "image": "750037626691.dkr.ecr.ap-northeast-1.amazonaws.com/bwce-app:latest",
-            "name": "http-app",
+            "name": "bwce-test-app",
             "cpu": 10,
             "memory": 512,
             "essential": true,
