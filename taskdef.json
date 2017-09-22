@@ -17,7 +17,11 @@
                 {
                     "name": "BW_LOGLEVEL",
                     "value": "DEBUG"
-                }
+                },
+				{
+					"name":"BW_JAVA_OPTS",
+					"value":"-Dbwce.aws.metering.bundle.frequency.minute=1"
+				}
             ],
             "logConfiguration": {
                 "logDriver": "awslogs",
