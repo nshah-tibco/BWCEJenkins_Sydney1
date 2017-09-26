@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "image": "750037626691.dkr.ecr.ap-southeast-2.amazonaws.com/bwce-app:latest",
-            "name": "bwce-test-rest-app",
+            "name": "bwce-test-app1",
             "cpu": 10,
             "memory": 512,
             "essential": true,
@@ -16,13 +16,13 @@
             "environment": [
                 {
                     "name": "BW_LOGLEVEL",
-                    "value": "DEBUG"
+                    "value": "ERROR"
                 }
             ],
             "logConfiguration": {
                 "logDriver": "awslogs",
                 "options": {
-                    "awslogs-group": "bwce-rest-app-log",
+                    "awslogs-group": "bwce-app1-log",
                     "awslogs-region": "ap-southeast-2",
                     "awslogs-stream-prefix": "bwce"
                 }
