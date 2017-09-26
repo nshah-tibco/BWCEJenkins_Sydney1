@@ -3,14 +3,14 @@
     "containerDefinitions": [
         {
             "image": "750037626691.dkr.ecr.ap-southeast-2.amazonaws.com/bwce-app:latest",
-            "name": "bwce-test-app",
+            "name": "bwce-test-rest-app",
             "cpu": 10,
             "memory": 512,
             "essential": true,
             "portMappings": [
                 {
                     "containerPort": 8080,
-                    "hostPort": 8080
+                    "hostPort": 9012
                 }
             ],
             "environment": [
@@ -22,7 +22,7 @@
             "logConfiguration": {
                 "logDriver": "awslogs",
                 "options": {
-                    "awslogs-group": "bwce-app-log",
+                    "awslogs-group": "bwce-rest-app-log",
                     "awslogs-region": "ap-southeast-2",
                     "awslogs-stream-prefix": "bwce"
                 }

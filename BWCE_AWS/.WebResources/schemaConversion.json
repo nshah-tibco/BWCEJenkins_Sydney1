@@ -1,0 +1,5 @@
+{"records": [{
+    "jsonSchemaLocation": "/BWCE_AWS/Service Descriptors/bwce_aws.Resource-Resource.json",
+    "conversionType": "linked",
+    "xsdSchemaTargetNamespace": "http://www.example.com/namespaces/tns/1506409192572"
+}]}
