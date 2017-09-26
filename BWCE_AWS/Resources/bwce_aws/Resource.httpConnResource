@@ -2,6 +2,6 @@
 <jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:httpconnector="http://xsd.tns.tibco.com/bw/models/sharedresource/httpconnector" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmi:id="_TkX48KKIEeeZsOECY53oVQ" name="bwce_aws.Resource" type="httpconnector:HttpConnectorConfiguration">
   <jndi:configuration xsi:type="httpconnector:HttpConnectorConfiguration" xmi:id="_TkcKYKKIEeeZsOECY53oVQ">
     <substitutionBindings xmi:id="_TkemoKKIEeeZsOECY53oVQ" template="host" propName="BW.HOST.NAME"/>
-    <substitutionBindings xmi:id="_pM5gkKKIEeeZsOECY53oVQ" template="port" propName="APPPORT"/>
+    <substitutionBindings xmi:id="_pM5gkKKIEeeZsOECY53oVQ" template="port" propName="BW.CLOUD.PORT"/>
   </jndi:configuration>
 </jndi:namedResource>
